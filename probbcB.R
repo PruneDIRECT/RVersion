@@ -1,18 +1,18 @@
 # Copied from RQTL package wihout any change
-----------------------------------------------------------------------
-R/qtl
-copyright (c) 2001-2014, Karl W Broman
-http://www.rqtl.org
-
-Authors: Karl W Broman <kbroman@biostat.wisc.edu> and Hao Wu, with
-         ideas from Gary Churchill and Saunak Sen and contributions
-         from Danny Arends, Ritsert Jansen, Pjotr Prins, Laura
-         Shannon, and Brian Yandell
-
-The R/qtl package is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License,
-version 3, as published by the Free Software Foundation.
-----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#R/qtl
+#copyright (c) 2001-2014, Karl W Broman
+#http://www.rqtl.org
+#
+#Authors: Karl W Broman <kbroman@biostat.wisc.edu> and Hao Wu, with
+#         ideas from Gary Churchill and Saunak Sen and contributions
+#         from Danny Arends, Ritsert Jansen, Pjotr Prins, Laura
+#         Shannon, and Brian Yandell
+#
+#The R/qtl package is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License,
+#version 3, as published by the Free Software Foundation.
+#----------------------------------------------------------------------
 probbc <- function (cross,chrom_num, step = 0, off.end = 0, error.prob = 1e-04, map.function = c("haldane", 
     "kosambi", "c-f", "morgan"), stepwidth = c("fixed", "variable", 
     "max")) 
